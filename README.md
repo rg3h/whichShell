@@ -16,6 +16,6 @@ if [[ "${a[0]}" != "1" ]];then zshFlag=1;fi
 printf "%s is the answer. With zsh you should see a 1\n" "${zshFlag}"
 </pre>
 <br>
-<a href="./whichShell.zip">Click here</a> to download a zip file with several scripts to display
+<a href="https://github.com/rg3h/whichShell/whichShell.zip">Click here</a> to download a zip file with several scripts to display
 indicators as to whether the scripts are running zsh or bash.
 <br>
