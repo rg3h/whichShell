@@ -1,4 +1,4 @@
-#!/bin/sh
+# whichShell.sh
 
 # test by looking at ${0}
 detectedShell=$(echo "${0//-/}")
