@@ -1,5 +1,3 @@
-# @fileoverview: .gitignore - tell git what directories and files to ignore
-
 #ignore temporary file names
 foo
 bar
