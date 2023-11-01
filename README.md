@@ -8,9 +8,13 @@ is running the script. For example, Apple uses the zsh, but when a script withou
 is used, it appears to run a very old version of bash. I'm not sure, but it does not seem to be
 running zsh since zsh indexes arrays differently than bash:<br>
 <br>
-<code>
-  insert code here
-</code>
+<pre>
+# test by looking at how the shell indexes an array
+a=(1)
+zshFlag=2
+if [[ "${a[0]}" != "1" ]];then zshFlag=1;fi
+printf "%s is the answer. With zsh you should see a 1\n" "${zshFlag}"
+</pre>
 <br>
 <a href="./whichShell.zip">Click here</a> to download a zip file with several scripts to display
 indicators as to whether the scripts are running zsh or bash.
