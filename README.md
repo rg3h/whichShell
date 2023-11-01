@@ -16,6 +16,16 @@ if [[ "${a[0]}" != "1" ]];then zshFlag=1;fi
 printf "%s is the answer. With zsh you should see a 1\n" "${zshFlag}"
 </pre>
 <br>
-<a href="https://github.com/rg3h/whichShell/raw/main/whichShell.zip">Click here</a> to download a zip file with several scripts to display
-indicators as to whether the scripts are running zsh or bash.
+<ol>
+  <li><a href="https://github.com/rg3h/whichShell/raw/main/whichShell.zip">Click here</a> to download a zip file with several scripts</li>
+  <li>unzip and cd into the whichShell/scripts/ directory</li>
+  <li>chmod u+x the scripts</li>
+  <li>try running them as
+    <ul>
+      <li><code>./whichScriptGeneric.sh</code></li>
+      <li><code>bash ./whichscriptGeneric.sh</code></li>
+      <li><code>zsh ./whichScriptGeneric.sh</code></li>
+    </ul>
+  </li>
+</ol>
 <br>
