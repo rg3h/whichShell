@@ -8,7 +8,9 @@ is running the script. For example, Apple uses the zsh terminal, but when a scri
 is used, it appears to run a (very old) version of bash. <br>
 <br>
 <ol>
-  <li><a href="https://github.com/rg3h/whichShell/raw/main/whichShell.zip">Click here</a> to download a zip file with several scripts</li>
+  <li><a href="https://github.com/rg3h/whichShell/raw/main/whichShell.zip">
+    <img src="./assets/images/clickHereButton.png" valign="middle"/>
+  </a>&nbsp;&nbsp; to download a zip file with several scripts</li>
   <li>unzip and cd into the whichShell/scripts/ directory</li>
   <li>chmod u+x the scripts</li>
   <li>try running them with different sh languages:
