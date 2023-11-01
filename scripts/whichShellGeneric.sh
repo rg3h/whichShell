@@ -1,6 +1,14 @@
 # test by looking at ${0}
-printf "\$0 = %s\n" $0
+detectedShell=$(echo "${0//-/}")
+printf "\$0 = [%s]\n" "${detectedShell}"
 
+if [ -n "$ZSH_VERSION" ]; then
+  printf "you are running zsh\n"
+elif [ -n "$BASH_VERSION" ]; then
+  printf "you are running bash\n"
+else
+  printf "you are running neither zsh nor bash\n"
+fi
 
 # test by looking at environment vars
 printf "\$SHELL = %s\n" "$SHELL"
