@@ -1,12 +1,13 @@
-<b>whichShell</b><br>
-
-When running a script, the script might need to know whether it was run using zsh, bash, etc.
-There are several ways to <i>try</i> to determine this, but across Windows (cygwin), Apple, and the 
-many flavors of unix, different things work.<br>
+<img src="./assets/images/whichShellLogo.png"><br>
 <br>
-This is a set of little scripts that print out various indicators of which shell script language
-is running the script. For example, Apple uses the zsh terminal, but when a script
-is used, it appears to run a (very old) version of bash. <br>
+When running a shell script, the script might need to know whether itis running zsh, bash, etc.
+Even if your terminal is zsh, calling ./foo.sh might look like it will run zsh, but foo ends up running bash.<br>
+<br>
+There are several ways to <i>try</i> to determine this, but across different Operating Systems (Windows, Apple, unix*)
+different things work.<br>
+<br>
+This is a set of simple scripts that print out various indicators. I've included the same script with
+directives at the top (#!/usr/bin/zsh and #!/usr/bin/bash) so you can try them too.
 <br>
 <ol>
   <li><a href="https://github.com/rg3h/whichShell/raw/main/whichShell.zip">
