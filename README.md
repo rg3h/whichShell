@@ -10,9 +10,11 @@ This is a set of simple scripts that print out various indicators. I've included
 directives at the top (#!/usr/bin/zsh and #!/usr/bin/bash) so you can try them too.
 <br>
 <ol>
-  <li><a href="https://github.com/rg3h/whichShell/raw/main/whichShell.zip">
-    <img src="./assets/images/clickHereButton.png" valign="middle"/>
-  </a>&nbsp;&nbsp; to download a zip file with several scripts</li>
+  <li>
+    <a href="https://github.com/rg3h/whichShell/raw/main/whichShell.zip">
+      <img src="./assets/images/clickHereButton.png" alt="click here to download the scripts" valign="middle"/>
+    </a>
+    &nbsp;&nbsp; to download a zip file with several scripts</li>
   <li>unzip and cd into the whichShell/scripts/ directory</li>
   <li>chmod u+x the scripts</li>
   <li>try running them with different sh languages:
