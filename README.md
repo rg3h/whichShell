@@ -17,11 +17,23 @@ directives at the top (#!/usr/bin/zsh and #!/usr/bin/bash) so you can try them t
     <br><br>
     <table><tr><td>
     <pre>
-           ./whichScript.sh
-      <b>bash</b> ./whichscript.sh
-      <b>zsh</b>  ./whichScript.sh
+           ./whichShell.sh
+      <b>bash</b> ./whichShell.sh
+      <b>zsh</b>  ./whichShell.sh
     </pre>
       </td></tr></table>
+  </li>
+  <br>
+  <li>Try running with different directives (files with #!/usr/bin/zh or #!/usr/bin/bash):
+    <br><br>
+    <table><tr><td>
+      <pre>
+             ./whichShellBash.sh
+             ./whichShellZsh.sh
+        <b>bash</b> ./whichShellZsh.sh
+        <b>zsh</b>  ./whichShellBash.sh
+      </pre>
+    </td></tr></table>
   </li>
 </ol>
 <br>
