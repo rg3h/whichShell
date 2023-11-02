@@ -1,4 +1,4 @@
-<img src="./assets/images/whichShellLogo.png"><br>
+<img src="./assets/images/whichShellLogo.png" alt="which shell"><br>
 <br>
 When running a shell script, the script might need to know whether itis running zsh, bash, etc.
 Even if your terminal is zsh, calling ./foo.sh might look like it will run zsh, but foo ends up running bash.<br>
