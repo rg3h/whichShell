@@ -1,4 +1,5 @@
-<h2>whichShell</h2>
+<b>whichShell</b><br>
+
 When running a script, the script might need to know whether it was run using zsh, bash, etc.
 There are several ways to <i>try</i> to determine this, but across Windows (cygwin), Apple, and the 
 many flavors of unix, different things work.<br>
