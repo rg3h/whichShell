@@ -6,8 +6,8 @@ Even if your terminal is zsh, when you run ./foo.sh it might end up running bash
 There are several ways to <i>try</i> to determine which shell the script is running, but across different Operating Systems (Windows, Apple, unix)
 different things work.<br>
 <br>
-This is a set of simple scripts that print out various indicators. I've included the same script with
-directives at the top (#!/usr/bin/zsh and #!/usr/bin/bash) so you can try them too.
+This is a set of simple scripts that print out various indicators. I've also included the same script with
+directives at the top (#!/usr/bin/zsh and #!/usr/bin/bash) so you can try them too (running zsh, bash, and ./ to see what they do).
 <br>
 <ol>
 <li>&nbsp;<a href="https://github.com/rg3h/whichShell/raw/main/whichShell.zip"><img src="./assets/images/clickHereButton.png" alt="click here to download the scripts" valign="middle"/></a>&nbsp;&nbsp;to download a zip file with several scripts</li>
