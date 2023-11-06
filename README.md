@@ -32,4 +32,3 @@ the directives #!/usr/bin/zsh and #!/usr/bin/bash  at the top so you can try the
     </td></tr></table>
   </li>
 </ol>
-<br>
