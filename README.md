@@ -1,7 +1,7 @@
 <img src="./assets/images/whichShellLogo.png" alt="which shell"><br>
 <br>
 When running a shell script, the script might need to know whether itis running zsh, bash, etc.
-Even if your terminal is zsh, when you run ./foo.sh it might end up running bash by default.<br>
+Even if your terminal is zsh, when you run ./foo.sh the script might be running bash by default.<br>
 <br>
 There are several ways to <i>try</i> to determine which shell the script is running, but across different Operating Systems (Windows, Apple, unix)
 different things work.<br>
