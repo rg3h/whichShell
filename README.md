@@ -1,13 +1,13 @@
 <img src="./assets/images/whichShellLogo.png" alt="which shell"><br>
 <br>
 When running a shell script, the script might need to know whether itis running zsh, bash, etc.
-Even if your terminal is zsh, calling ./foo.sh might look like it will run zsh, but foo ends up running bash.<br>
+Even if your terminal is zsh, when you run ./foo.sh it might end up running bash by default.<br>
 <br>
-There are several ways to <i>try</i> to determine this, but across different Operating Systems (Windows, Apple, unix)
+There are several ways to <i>try</i> to determine which shell the script is running, but across different Operating Systems (Windows, Apple, unix)
 different things work.<br>
 <br>
-This is a set of simple scripts that print out various indicators. I've included the same script with
-directives at the top (#!/usr/bin/zsh and #!/usr/bin/bash) so you can try them too.
+This is a set of simple scripts that print out various indicators. I've also included the same script with
+directives at the top (#!/usr/bin/zsh and #!/usr/bin/bash) so you can try them too (running zsh, bash, and ./ to see what they do).
 <br>
 <ol>
 <li>&nbsp;<a href="https://github.com/rg3h/whichShell/raw/main/whichShell.zip"><img src="./assets/images/clickHereButton.png" alt="click here to download the scripts" valign="middle"/></a>&nbsp;&nbsp;to download a zip file with several scripts</li>
@@ -15,24 +15,20 @@ directives at the top (#!/usr/bin/zsh and #!/usr/bin/bash) so you can try them t
   <li>chmod u+x the scripts</li>
   <li>try running them with different sh languages:
     <br><br>
-    <table><tr><td>
-    <pre>
-           ./whichShell.sh
-      <b>bash</b> ./whichShell.sh
-      <b>zsh</b>  ./whichShell.sh
-    </pre>
-      </td></tr></table>
+    <table><tr><td><pre>
+     ./whichShell.sh
+<b>bash</b> ./whichShell.sh
+<b>zsh</b>  ./whichShell.sh</pre>
+    </td></tr></table>
   </li>
   <br>
   <li>Try running with different directives (files with #!/usr/bin/zh or #!/usr/bin/bash):
     <br><br>
-    <table><tr><td>
-      <pre>
-             ./whichShellBash.sh
-             ./whichShellZsh.sh
-        <b>bash</b> ./whichShellZsh.sh
-        <b>zsh</b>  ./whichShellBash.sh
-      </pre>
+    <table><tr><td><pre>
+     ./whichShellBash.sh
+     ./whichShellZsh.sh
+<b>bash</b> ./whichShellZsh.sh
+<b>zsh</b>  ./whichShellBash.sh</pre>
     </td></tr></table>
   </li>
 </ol>
