@@ -5,7 +5,7 @@ Even if your terminal is zsh, when you run ./foo.sh the script might be running 
 <br>
 There are several ways to <i>try</i> to determine which shell the script is running, but across different operating systems (Windows, Apple, unix) different things happen.<br>
 <br>
-This is a set of simple scripts that print out various indicators. I've also included the same script with
+This is a set of scripts that print out various indicators. I've also included the same script with
 the directives #!/usr/bin/zsh and #!/usr/bin/bash  at the top so you can try them too.
 <br><br>
 <ol>
