@@ -3,10 +3,10 @@
 When running a shell script, the script might need to know whether itis running zsh, bash, etc.
 Even if your terminal is zsh, when you run ./foo.sh the script might be running bash by default.<br>
 <br>
-There are several ways to <i>try</i> to determine which shell the script is running, but across different operating aystems (Windows, Apple, unix) different things happen.<br>
+There are several ways to <i>try</i> to determine which shell the script is running, but across different operating systems (Windows, Apple, unix) different things happen.<br>
 <br>
 This is a set of simple scripts that print out various indicators. I've also included the same script with
-directives at the top (#!/usr/bin/zsh and #!/usr/bin/bash) so you can try them too.
+the directives #!/usr/bin/zsh and #!/usr/bin/bash  at the top so you can try them too.
 <br><br>
 <ol>
 <li>&nbsp;<a href="https://github.com/rg3h/whichShell/raw/main/whichShell.zip"><img src="./assets/images/clickHereButton.png" alt="click here to download the scripts" valign="middle"/></a>&nbsp;&nbsp;to download a zip file with several scripts</li>
