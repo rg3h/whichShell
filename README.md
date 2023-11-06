@@ -3,7 +3,7 @@
 When running a shell script, the script might need to know whether itis running zsh, bash, etc.
 Even if your terminal is zsh, calling ./foo.sh might look like it will run zsh, but foo ends up running bash.<br>
 <br>
-There are several ways to <i>try</i> to determine this, but across different Operating Systems (Windows, Apple, unix*)
+There are several ways to <i>try</i> to determine this, but across different Operating Systems (Windows, Apple, unix)
 different things work.<br>
 <br>
 This is a set of simple scripts that print out various indicators. I've included the same script with
