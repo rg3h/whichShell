@@ -15,24 +15,20 @@ directives at the top (#!/usr/bin/zsh and #!/usr/bin/bash) so you can try them t
   <li>chmod u+x the scripts</li>
   <li>try running them with different sh languages:
     <br><br>
-    <table><tr><td>
-    <pre>
-           ./whichShell.sh
-      <b>bash</b> ./whichShell.sh
-      <b>zsh</b>  ./whichShell.sh
-    </pre>
-      </td></tr></table>
+    <table><tr><td><pre>
+     ./whichShell.sh
+<b>bash</b> ./whichShell.sh
+<b>zsh</b>  ./whichShell.sh</pre>
+    </td></tr></table>
   </li>
   <br>
   <li>Try running with different directives (files with #!/usr/bin/zh or #!/usr/bin/bash):
     <br><br>
-    <table><tr><td>
-      <pre>
-             ./whichShellBash.sh
-             ./whichShellZsh.sh
-        <b>bash</b> ./whichShellZsh.sh
-        <b>zsh</b>  ./whichShellBash.sh
-      </pre>
+    <table><tr><td><pre>
+     ./whichShellBash.sh
+     ./whichShellZsh.sh
+<b>bash</b> ./whichShellZsh.sh
+<b>zsh</b>  ./whichShellBash.sh</pre>
     </td></tr></table>
   </li>
 </ol>
