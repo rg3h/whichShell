@@ -1,5 +1,6 @@
-<img src="./assets/images/whichShellLogo.png" alt="which shell"><br>
-<br>
+<img src="./assets/images/whichShellLogo.png" alt="which shell">
+<sup>(see also <a href="https://rg3h.github.io/whichShell">https://rg3h.github.io/whichShell</a>)</sup>
+<br><br>
 When running a shell script, the script might need to know whether itis running zsh, bash, etc.
 Even if your terminal is zsh, when you run ./foo.sh the script might be running bash by default.<br>
 <br>
