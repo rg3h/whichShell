@@ -6,13 +6,13 @@ Even if your terminal is zsh, when you run ./foo.sh the script might be running 
 There are several ways to <i>try</i> to determine which shell the script is running, but across different operating aystems (Windows, Apple, unix) different things happen.<br>
 <br>
 This is a set of simple scripts that print out various indicators. I've also included the same script with
-directives at the top (#!/usr/bin/zsh and #!/usr/bin/bash) so you can try them too (running zsh, bash, and ./ to see what they do).
-<br>
+directives at the top (#!/usr/bin/zsh and #!/usr/bin/bash) so you can try them too.
+<br><br>
 <ol>
 <li>&nbsp;<a href="https://github.com/rg3h/whichShell/raw/main/whichShell.zip"><img src="./assets/images/clickHereButton.png" alt="click here to download the scripts" valign="middle"/></a>&nbsp;&nbsp;to download a zip file with several scripts</li>
   <li>unzip and cd into the whichShell/scripts/ directory</li>
   <li>chmod u+x the scripts</li>
-  <li>try running them with different sh languages:
+  <li>run them with different sh languages:
     <br><br>
     <table><tr><td><pre>
      ./whichShell.sh
@@ -21,7 +21,7 @@ directives at the top (#!/usr/bin/zsh and #!/usr/bin/bash) so you can try them t
     </td></tr></table>
   </li>
   <br>
-  <li>Try running with different directives (files with #!/usr/bin/zh or #!/usr/bin/bash):
+  <li>try running with different directives (files with #!/usr/bin/zh or #!/usr/bin/bash):
     <br><br>
     <table><tr><td><pre>
      ./whichShellBash.sh
