@@ -1,54 +1,60 @@
-<style>
-html, body {
-  -moz-text-size-adjust: none;
-  -webkit-text-size-adjust: none;
-  text-size-adjust: none;
-}
+<!doctype html> <!-- jsTemplate main index.html -->
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>whichShell</title>
+  <style>
+    html, body {
+      -moz-text-size-adjust: none;
+      -webkit-text-size-adjust: none;
+      text-size-adjust: none;
+    }
 
-body {
-  -webkit-font-smoothing: antialiased;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  font-family: arial;
-  justify-content: center;
-  line-height: 1.5;
-  text-rendering: optimizelegibility;
-}
+    body {
+      -webkit-font-smoothing: antialiased;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      font-family: arial;
+      justify-content: center;
+      line-height: 1.5;
+      text-rendering: optimizelegibility;
+    }
 
-img, picture, video, canvas, svg { display: block; max-width: 100%; }
-input, button, textarea, select { font: inherit; }
-p, h1, h2, h3, h4, h5, h6 { overflow-wrap: break-word; }
+    img, picture, video, canvas, svg { display: block; max-width: 100%; }
+    input, button, textarea, select { font: inherit; }
+    p, h1, h2, h3, h4, h5, h6 { overflow-wrap: break-word; }
 
-li {
-  line-height: 2em;
-}
+    li {
+      line-height: 2em;
+    }
 
-.header {
-  align-items: baseline;
-  display: flex;
-  margin-bottom: 1em;
-}
+    .header {
+      align-items: baseline;
+      display: flex;
+      margin-bottom: 1em;
+    }
 
-.page {
-  border: solid 1px rgb(35, 140, 60);
-  border-radius: 2em;
-  margin-top: 1em;
-  max-width: 800px;
-  padding: 2em 2em 0 2em;
-}
+    .page {
+      border: solid 1px rgb(35, 140, 60);
+      border-radius: 2em;
+      margin-top: 1em;
+      max-width: 800px;
+      padding: 2em 2em 0 2em;
+    }
 
-.oneLine {
-  display: flex;
-}
+    .oneLine {
+      display: flex;
+    }
 
-.version {
-  font-size: 0.5em;
-  color: rgb(100, 100, 100);
-}
-
-</style>
-
+    .version {
+      font-size: 0.5em;
+      color: rgb(100, 100, 100);
+    }
+  </style>
+</head>
 <body>
   <div class=page>
     <div class=header>
@@ -96,5 +102,6 @@ the directives #!/usr/bin/zsh and #!/usr/bin/bash  at the top so you can try the
   </li>
 </ol>
 <br>
-  </div> <!-- page -->
-</body>
+    </div> <!-- page -->
+  </body>
+</html>
